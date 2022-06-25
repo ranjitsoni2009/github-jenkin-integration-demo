@@ -8,6 +8,7 @@ public class MyController {
 	
 	@GetMapping("/health")
 	public String healthCheck() {
+		System.out.println("Health Check API is called");
 		return "ok";
 	}
 }
